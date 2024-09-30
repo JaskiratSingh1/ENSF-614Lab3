@@ -16,6 +16,7 @@
 		2DC8B3652CAB5DC400EAD25F /* graphicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B3572CAB5DC400EAD25F /* graphicsWorld.cpp */; };
 		2DC8B3662CAB5DC400EAD25F /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B35A2CAB5DC400EAD25F /* point.cpp */; };
 		2DC8B3692CAB5E2900EAD25F /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B3682CAB5E2900EAD25F /* circle.cpp */; };
+		2DC8B36B2CAB6B9500EAD25F /* curveCut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B36A2CAB6B9500EAD25F /* curveCut.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,8 @@
 		2DC8B3602CAB5DC400EAD25F /* square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = square.cpp; sourceTree = "<group>"; };
 		2DC8B3672CAB5E1200EAD25F /* circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = circle.h; sourceTree = "<group>"; };
 		2DC8B3682CAB5E2900EAD25F /* circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circle.cpp; sourceTree = "<group>"; };
+		2DC8B36A2CAB6B9500EAD25F /* curveCut.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = curveCut.cpp; sourceTree = "<group>"; };
+		2DC8B36C2CAB6BA900EAD25F /* curveCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curveCut.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,12 +145,14 @@
 				2DC8B35C2CAB5DC400EAD25F /* rectangle.cpp */,
 				2DC8B3602CAB5DC400EAD25F /* square.cpp */,
 				2DC8B3682CAB5E2900EAD25F /* circle.cpp */,
+				2DC8B36A2CAB6B9500EAD25F /* curveCut.cpp */,
 				2DC8B3562CAB5DC400EAD25F /* graphicsWorld.h */,
 				2DC8B3592CAB5DC400EAD25F /* point.h */,
 				2DC8B35D2CAB5DC400EAD25F /* shape.h */,
 				2DC8B35B2CAB5DC400EAD25F /* rectangle.h */,
 				2DC8B35F2CAB5DC400EAD25F /* square.h */,
 				2DC8B3672CAB5E1200EAD25F /* circle.h */,
+				2DC8B36C2CAB6BA900EAD25F /* curveCut.h */,
 			);
 			path = ExerciseA;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				2DC8B3692CAB5E2900EAD25F /* circle.cpp in Sources */,
 				2DC8B3642CAB5DC400EAD25F /* main.cpp in Sources */,
 				2DC8B3652CAB5DC400EAD25F /* graphicsWorld.cpp in Sources */,
+				2DC8B36B2CAB6B9500EAD25F /* curveCut.cpp in Sources */,
 				2DC8B3662CAB5DC400EAD25F /* point.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
