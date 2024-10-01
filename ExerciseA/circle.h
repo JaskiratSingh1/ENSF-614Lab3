@@ -10,7 +10,7 @@
 
 #include "shape.h"
 
-class Circle : public Shape {
+class Circle : public virtual Shape {
 private:
     double radius;
 

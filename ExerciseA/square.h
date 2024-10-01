@@ -10,7 +10,7 @@
 
 #include "shape.h"
 
-class Square : public Shape {
+class Square : public virtual Shape {
 private:
     double side_a;
 

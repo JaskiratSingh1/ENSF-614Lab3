@@ -30,10 +30,10 @@ double CurveCut::perimeter() const {
     return Rectangle::perimeter() - (2 * Circle::getRadius()) + (0.25 * Circle::perimeter());
 }
 
-void Circle::display() const {
-    cout << "CurveCut Name: " << getName() << endl;
+void CurveCut::display() const {
+    cout << "CurveCut Name: " << Shape::getName() << endl;
     // Print x, y coords
-    origin.display();
+    Rectangle::origin.display();
     cout << "Width: " << Rectangle::get_side_a() << endl;
     cout << "Length: " << Rectangle::get_side_b() << endl;
     cout << "Radius of the cut: " << Circle::getRadius() << endl;

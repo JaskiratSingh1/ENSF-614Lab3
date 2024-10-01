@@ -29,7 +29,7 @@ public:
     const char* getName() const;
 
     // Display coordinates
-    virtual void display() const;
+    virtual void display() const = 0;
 
     // Distance between two points
     double distance(const Shape& other) const;

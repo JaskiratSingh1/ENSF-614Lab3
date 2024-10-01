@@ -149,8 +149,8 @@
 				2DC8B3562CAB5DC400EAD25F /* graphicsWorld.h */,
 				2DC8B3592CAB5DC400EAD25F /* point.h */,
 				2DC8B35D2CAB5DC400EAD25F /* shape.h */,
-				2DC8B35B2CAB5DC400EAD25F /* rectangle.h */,
 				2DC8B35F2CAB5DC400EAD25F /* square.h */,
+				2DC8B35B2CAB5DC400EAD25F /* rectangle.h */,
 				2DC8B3672CAB5E1200EAD25F /* circle.h */,
 				2DC8B36C2CAB6BA900EAD25F /* curveCut.h */,
 			);
