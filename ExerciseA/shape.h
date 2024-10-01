@@ -27,6 +27,10 @@ public:
     // Getters
     const Point& getOrigin() const;
     const char* getName() const;
+    
+    // Pure virtual functions, making Shape abstract
+    virtual double area() const = 0;
+    virtual double perimeter() const = 0;
 
     // Display coordinates
     virtual void display() const = 0;

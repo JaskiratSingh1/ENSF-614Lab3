@@ -11,7 +11,7 @@
 using namespace std;
 
 CurveCut::CurveCut(double x, double y, double sideA, double sideB, double radius, const char* name) :
-    Rectangle(x, y, sideA, sideB, name), Circle(x, y, radius, name) {
+    Shape(x, y, name), Rectangle(x, y, sideA, sideB, name), Circle(x, y, radius, name) {
     if(radius > sideA || radius > sideB) {
         cerr << "The radius must be less than or equal to the smaller of the width and length." << endl;
         exit(1);

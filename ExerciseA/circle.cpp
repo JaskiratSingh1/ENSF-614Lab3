@@ -11,26 +11,6 @@
 
 using namespace std;
 
-class Circle : public Shape {
-private:
-    double radius;
-
-public:
-    Circle(double x, double y, double radius, const char* name);
-    virtual ~Circle();
-
-    // Shape features
-    double area() const;
-    double perimeter() const;
-
-    // Second side getter and setter
-    double getRadius() const;
-    void setRadius(double radius);
-
-    // Display method
-    virtual void display() const;
-};
-
 Circle::Circle(double x, double y, double radius, const char* name): Shape(x, y, name), radius(radius) {
     // Ensure that radius is positive
     if(radius < 0) {
