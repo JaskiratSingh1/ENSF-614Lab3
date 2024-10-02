@@ -1,9 +1,5 @@
-/*
-* File Name: mystring2.h
-* Assignment: Lab 3 Exercise B
-* Completed by: Jaskirat Singh (Jazz), Frank Ma
-* Submission Date: 2 October 2024
-*/
+//File: mystring2.h
+// ENSF 614 - Lab 3
 
 
 #ifndef MYSTRING_H

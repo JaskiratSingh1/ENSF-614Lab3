@@ -1,5 +1,9 @@
-// iterator.cpp
-// ENSF 614 - Lab 3, Ex B
+/*
+* File Name: iterator.cpp
+* Assignment: Lab 3 Exercise B
+* Completed by: Jaskirat Singh (Jazz), Frank Ma
+* Submission Date: 2 October 2024
+*/
 
 #include <iostream>
 #include <assert.h>
@@ -126,6 +130,14 @@ void Vector<T>::ascending_sort() {
     for(int i=0; i< size-1; i++)
         for(int j=i+1; j < size; j++)
             if(array[i] > array[j])
+                swap(array[i], array[j]);
+}
+
+template <>
+void Vector<const char*>::ascending_sort() {
+    for(int i=0; i< size-1; i++)
+        for(int j=i+1; j < size; j++)
+            if(strcmp(array[i], array[j]) > 0)
                 swap(array[i], array[j]);
 }
 

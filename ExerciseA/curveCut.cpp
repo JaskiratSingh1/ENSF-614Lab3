@@ -1,9 +1,9 @@
-//
-//  curveCut.cpp
-//  ExerciseA
-//
-//  Created by Jaskirat Singh on 9/30/24.
-//
+/*
+* File Name: curveCut.cpp
+* Assignment: Lab 3 Exercise A
+* Completed by: Jaskirat Singh (Jazz), Frank Ma
+* Submission Date: 2 October 2024
+*/
 
 #include <iostream>
 #include "curveCut.h"

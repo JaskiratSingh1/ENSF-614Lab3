@@ -1,9 +1,9 @@
 /*
 * File Name: graphicsWorld.cpp
-* Assignment: Lab 2 Exercise B
+* Assignment: Lab 3 Exercise A
 * Created by: Professor Moussavi
 * Edited by: Jaskirat Singh (Jazz), Frank Ma
-* Submission Date: 25 September 2025
+* Submission Date: 2 October 2024
 */
 
 #include <iostream>

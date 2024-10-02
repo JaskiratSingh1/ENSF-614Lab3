@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DC8B3522CAB5CD700EAD25F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B3512CAB5CD700EAD25F /* main.cpp */; };
+		2D5233F12CAD923600B23AC9 /* mystring2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D5233F02CAD923600B23AC9 /* mystring2.cpp */; };
+		2D5233F22CAD923600B23AC9 /* customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D5233EC2CAD923600B23AC9 /* customer.cpp */; };
+		2D5233F32CAD923600B23AC9 /* mainLab3ExC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D5233EE2CAD923600B23AC9 /* mainLab3ExC.cpp */; };
 		2DC8B3612CAB5DC400EAD25F /* shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B35E2CAB5DC400EAD25F /* shape.cpp */; };
 		2DC8B3622CAB5DC400EAD25F /* rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B35C2CAB5DC400EAD25F /* rectangle.cpp */; };
 		2DC8B3632CAB5DC400EAD25F /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B3602CAB5DC400EAD25F /* square.cpp */; };
@@ -60,11 +62,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D5233EB2CAD923600B23AC9 /* customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customer.h; sourceTree = "<group>"; };
+		2D5233EC2CAD923600B23AC9 /* customer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = customer.cpp; sourceTree = "<group>"; };
+		2D5233ED2CAD923600B23AC9 /* lookupTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lookupTable.h; sourceTree = "<group>"; };
+		2D5233EE2CAD923600B23AC9 /* mainLab3ExC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainLab3ExC.cpp; sourceTree = "<group>"; };
+		2D5233EF2CAD923600B23AC9 /* mystring2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mystring2.h; sourceTree = "<group>"; };
+		2D5233F02CAD923600B23AC9 /* mystring2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mystring2.cpp; sourceTree = "<group>"; };
 		2DC8B32B2CAB5C9700EAD25F /* ENSF-614Lab3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ENSF-614Lab3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8B3392CAB5CBF00EAD25F /* ExerciseA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExerciseA; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8B3442CAB5CCC00EAD25F /* ExerciseB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExerciseB; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8B34F2CAB5CD700EAD25F /* ExerciseC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExerciseC; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC8B3512CAB5CD700EAD25F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2DC8B3562CAB5DC400EAD25F /* graphicsWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphicsWorld.h; sourceTree = "<group>"; };
 		2DC8B3572CAB5DC400EAD25F /* graphicsWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graphicsWorld.cpp; sourceTree = "<group>"; };
 		2DC8B3582CAB5DC400EAD25F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -173,7 +180,12 @@
 		2DC8B3502CAB5CD700EAD25F /* ExerciseC */ = {
 			isa = PBXGroup;
 			children = (
-				2DC8B3512CAB5CD700EAD25F /* main.cpp */,
+				2D5233EB2CAD923600B23AC9 /* customer.h */,
+				2D5233EC2CAD923600B23AC9 /* customer.cpp */,
+				2D5233ED2CAD923600B23AC9 /* lookupTable.h */,
+				2D5233EE2CAD923600B23AC9 /* mainLab3ExC.cpp */,
+				2D5233EF2CAD923600B23AC9 /* mystring2.h */,
+				2D5233F02CAD923600B23AC9 /* mystring2.cpp */,
 			);
 			path = ExerciseC;
 			sourceTree = "<group>";
@@ -329,7 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC8B3522CAB5CD700EAD25F /* main.cpp in Sources */,
+				2D5233F12CAD923600B23AC9 /* mystring2.cpp in Sources */,
+				2D5233F22CAD923600B23AC9 /* customer.cpp in Sources */,
+				2D5233F32CAD923600B23AC9 /* mainLab3ExC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

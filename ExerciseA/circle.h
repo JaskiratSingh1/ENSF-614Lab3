@@ -2,7 +2,7 @@
 * File Name: circle.h
 * Assignment: Lab 3 Exercise A
 * Completed by: Jaskirat Singh (Jazz), Frank Ma
-* Submission Date: 2 October 2025
+* Submission Date: 2 October 2024
 */
 
 #ifndef circle_h

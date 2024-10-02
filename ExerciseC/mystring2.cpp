@@ -1,10 +1,6 @@
-/*
-* File Name: mystring2.cpp
-* Assignment: Lab 3 Exercise B
-* Completed by: Jaskirat Singh (Jazz), Frank Ma
-* Submission Date: 2 October 2024
-*/
-
+//  mystring2.cpp
+// ENSF 614 - Lab 3
+// M. Moussavi
 #include "mystring2.h"
 #include <string.h>
 #include <iostream>
